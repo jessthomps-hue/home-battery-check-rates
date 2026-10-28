@@ -1,5 +1,5 @@
 {
-  "checkedOn": "2026-10-17",
+  "checkedOn": "2026-10-28",
   "note": "Rates for tariffs without a live feed. Pence per kWh and pence per day, VAT-free (no VAT on home electricity 1 Oct 2026 to 31 Mar 2027). Hours are UK time, 24h clock.",
   "priceCap": {
     "unitRate": 26.32,
@@ -10,9 +10,9 @@
   "tariffs": {
     "svt": { "name": "Standard variable", "dayRate": 26.32, "standingCharge": 54.83, "exportRate": 12, "source": "https://ofgem.gov.uk/news/changes-energy-price-cap-between-1-october-and-31-december-2026" },
     "e7":  { "name": "Economy 7", "dayRate": 31.5, "cheapRate": 14.0, "cheapStart": 0.5, "cheapEnd": 7.5, "standingCharge": 54.83, "exportRate": 12, "source": "" },
-    "edf": { "name": "EDF GoElectric", "dayRate": 25.66, "cheapRate": 9.0, "cheapStart": 0, "cheapEnd": 5, "standingCharge": 54.83, "exportRate": 5.6, "source": "" },
-    "eon": { "name": "E.ON Next Drive Smart", "dayRate": 33.12, "cheapRate": 8.0, "cheapStart": 0, "cheapEnd": 6, "standingCharge": 54.83, "exportRate": 12, "source": "https://www.eonnext.com/tariffs/next-drive/smart" },
+    "edf": { "name": "EDF GoElectric", "dayRate": 25.66, "cheapRate": 6.66, "cheapStart": 23, "cheapEnd": 6, "standingCharge": 54.83, "exportRate": 5.6, "source": "https://www.edfenergy.com/electric-cars/ev-tariffs/goelectric" },
+    "eon": { "name": "E.ON Next Drive Smart", "dayRate": 34.042, "cheapRate": 6.5, "cheapStart": 0, "cheapEnd": 6, "standingCharge": 54.83, "exportRate": 12, "source": "https://www.eonnext.com/tariffs/next-drive/smart" },
     "bg":  { "name": "British Gas EV Power", "dayRate": 36.90, "cheapRate": 9.5, "cheapStart": 0, "cheapEnd": 5, "standingCharge": 54.83, "exportRate": 12, "source": "https://www.evcompared.co.uk/news/ev-tariffs-october-2026-octopus-fixed/" },
-    "ovo": { "name": "OVO Charge Anytime", "dayRate": 26.32, "evRate": 14, "standingCharge": 54.83, "exportRate": 12, "source": "https://teslacharger.co.uk/tariffs/ovo-charge-anytime/" }
+    "ovo": { "name": "OVO Charge Anytime", "dayRate": 26.32, "evRate": 13.33, "standingCharge": 54.83, "exportRate": 12, "source": "https://www.ovoenergy.com/electric-cars/charge-anytime" }
   }
 }
